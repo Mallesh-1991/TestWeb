@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript">
+var calculateInterest = function() {
+
+  alert("function called");
+
+  return false
+
+};
+</script>
+</head>
+<body>
+<form onsubmit="return calculateInterest()" id="interest_calc" name="interest_calc" >
+  <input type="submit" id="calculate" value="Calculate">
+
+  <input type="button" id="calculate" value="test" onclick="return calculateInterest();">
+
+
+</form>
+</body>
+</html>
